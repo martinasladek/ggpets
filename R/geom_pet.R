@@ -66,7 +66,7 @@ GeomPet <- ggplot2::ggproto(`_class` = "GeomPet",
                                                            alpha  = NA,
                                                            stroke =  0.5,
                                                            scale = 5,
-                                                           image_filename = "axel"),
+                                                           image_filename = "axel.png"),
 
                                 draw_panel = function(data, panel_scales, coord, na.rm = FALSE) {
                                   coords <- coord$transform(data, panel_scales)
