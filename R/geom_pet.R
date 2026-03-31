@@ -61,12 +61,12 @@ GeomPet <- ggplot2::ggproto(`_class` = "GeomPet",
                                 `_inherit` = ggplot2::Geom,
                                 required_aes = c("x", "y"),
                                 non_missing_aes = c("size", "pet"),
-                                default_aes = ggplot2::aes(size = 1, pet = "pet_default", shape  = 19,
+                                default_aes = ggplot2::aes(size = 1, pet = "axel", shape  = 19,
                                                            colour = "black",   fill   = NA,
                                                            alpha  = NA,
                                                            stroke =  0.5,
                                                            scale = 5,
-                                                           image_filename = "pet_default"),
+                                                           image_filename = "axel"),
 
                                 draw_panel = function(data, panel_scales, coord, na.rm = FALSE) {
                                   coords <- coord$transform(data, panel_scales)
