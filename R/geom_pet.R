@@ -23,6 +23,7 @@ petGrob <- function(x, y, size, pet = "axel", geom_key = list(
   chloe =       "chloe.png",
   clive =       "clive.png",
   creasy =      "creasy.png",
+  fiona =       "fiona.png",
   jester =      "jester.png",
   kal =         "kal.png",
   kaspian =     "kaspian.png",
