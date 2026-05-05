@@ -32,6 +32,8 @@ petGrob <- function(x, y, size, pet = "axel", geom_key = list(
   louis =       "louis.png",
   marshmallow = "marshmallow.png",
   milo =        "milo.png",
+  mona =        "mona.png",
+  lisa =        "lisa.png",
   pippa =       "pippa.png",
   remy =        "remy.png",
   rosie_swim =  "rosie_swim.png",
@@ -82,7 +84,7 @@ GeomPet <- ggplot2::ggproto(`_class` = "GeomPet",
                                 draw_key = draw_key_pet)
 
 #' @title Pet layer
-#' @description The geom is used to add a pet to plots. Use the pet = "..." argument to specify a pet. Possible pet seetings include: axel, bear, beaux, bella, benji, chloe, clive, creasy, fiona, jester, kal, kaspain, kida, latte, louis, marshmallow, milo, pippa, remy, rosie_swim, rosie, rupert, salem, scrungo, smudge, suki, tibble, zuko. Each name needs to be provided in quotation marks, e.g. pet = "axel".
+#' @description The geom is used to add a pet to plots. Use the pet = "..." argument to specify a pet. Possible pet settings include: axel, bear, beaux, bella, benji, chloe, clive, creasy, fiona, jester, kal, kaspain, kida, latte, lisa, louis, marshmallow, milo, mona, pippa, remy, rosie_swim, rosie, rupert, salem, scrungo, smudge, suki, tibble, zuko. Each name needs to be provided in quotation marks, e.g. pet = "axel".
 #' @inheritParams ggplot2::geom_point
 #' @examples
 #'

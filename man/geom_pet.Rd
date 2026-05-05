@@ -105,7 +105,7 @@ that define both data and aesthetics and shouldn't inherit behaviour from
 the default plot specification, e.g. \code{\link[ggplot2:borders]{borders()}}.}
 }
 \description{
-The geom is used to add a pet to plots. Use the pet = "..." argument to specify a pet. Possible pet seetings include: axel, bear, beaux, bella, benji, chloe, clive, creasy, fiona, jester, kal, kaspain, kida, latte, louis, marshmallow, milo, pippa, remy, rosie_swim, rosie, rupert, salem, scrungo, smudge, suki, tibble, zuko. Each name needs to be provided in quotation marks, e.g. pet = "axel".
+The geom is used to add a pet to plots. Use the pet = "..." argument to specify a pet. Possible pet settings include: axel, bear, beaux, bella, benji, chloe, clive, creasy, fiona, jester, kal, kaspain, kida, latte, lisa, louis, marshmallow, milo, mona, pippa, remy, rosie_swim, rosie, rupert, salem, scrungo, smudge, suki, tibble, zuko. Each name needs to be provided in quotation marks, e.g. pet = "axel".
 }
 \examples{
 
